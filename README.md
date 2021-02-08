@@ -1,8 +1,8 @@
 # Simple_FileManager_Python
 
-##Requirements:
+## Requirements:
   Pyqt5
 
 
-##Icons:
+## Icons:
   The two icons (Left and right arrows) are downloaded from https://www.flaticon.com.
