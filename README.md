@@ -1,7 +1,7 @@
 # Simple_FileManager_Python
 
 ### Requirements:
-  * Pyqt5
+  * Pyqt5 
 
 
 ### Icons:
