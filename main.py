@@ -162,14 +162,11 @@ class Window(QMainWindow):
             except OSError:
                 pass
 
-    def doubleClickedOnFileOrFolder(self, event, path=None):
+    def doubleClickedOnFileOrFolder(self, event):
         # event is a QtCore.QModelIndex
-        if path is not None:
-            self.openFile(path)
-        else:
-            path = self.model.filePath(event)
-            self.filePath.setText(path)
-            self.openFile(path)
+        path = self.model.filePath(event)
+        self.filePath.setText(path)
+        self.openFile(path)
 
     # Move to the next
     def next(self):
